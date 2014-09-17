@@ -1,0 +1,23 @@
+$ORIGIN fffd.
+
+$TTL 3600
+@ 			IN	SOA	localhost. hostmaster.freifunk-fulda.de. (
+					2014091500	; serial
+					10800		; refresh
+					3600		; retry
+					604800		; expire
+					3600		; ttl
+					)
+
+@ 			IN	NS 	localhost.
+
+nodes			IN	NS	localhost.
+
+services		IN	NS	localhost.
+
+
+start			IN	A	10.185.0.1
+			IN	AAAA	fd00:fffd:fffd::1
+
+map			IN	A	10.185.0.1
+			IN	AAAA	fd00:fffd:fffd::1
