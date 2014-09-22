@@ -16,8 +16,8 @@ nodes			IN	NS	localhost.
 services		IN	NS	localhost.
 
 
-start			IN	A	10.185.0.1
-			IN	AAAA	fd00:fffd:fffd::1
+start			IN	A	10.185.0.11
+			IN	AAAA	fd00:fffd:fffd::11
 
-map			IN	A	10.185.0.1
-			IN	AAAA	fd00:fffd:fffd::1
+map			IN	A	10.185.0.11
+			IN	AAAA	fd00:fffd:fffd::11
