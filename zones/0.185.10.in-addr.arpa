@@ -2,7 +2,7 @@ $ORIGIN 0.185.10.in-addr.arpa.
 
 $TTL 3600
 @			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015040304	; serial
+					2015040305	; serial
 					10800		; refresh
 					3600		; retry
 					604800		; expire
