@@ -10,13 +10,13 @@ $TTL 3600
 					)
 
 @ 			IN	NS 	ns0.fffd.
-@ 			IN	NS 	ns1.fffd.
+@ 			IN	NS 	ns2.fffd.
 
 nodes			IN	NS	ns0.fffd.
-nodes			IN	NS	ns1.fffd.
+nodes			IN	NS	ns2.fffd.
 
 services		IN	NS	ns0.fffd.
-services		IN	NS	ns1.fffd.
+services		IN	NS	ns2.fffd.
 
 ns			IN	A	10.185.0.11
 			IN	AAAA	fd00:fffd:fffd::11

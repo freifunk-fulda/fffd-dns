@@ -9,7 +9,8 @@ $TTL 3600
 					3600		; ttl
 					)
 
-@ 			IN	NS 	localhost.
+@ 			IN	NS 	ns0.fffd.
+@ 			IN	NS 	ns2.fffd.
 
 
 gw01			IN	A	10.185.0.1

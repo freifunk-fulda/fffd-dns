@@ -20,7 +20,7 @@ for mac, node in data.items():
 
 print("$ORIGIN nodes.fffd.")
 print("$TTL 3600	; 1 Stunde")
-print("@			IN 	SOA	localhost. hostmaster.freifunk-fulda.de. (")
+print("@			IN 	SOA	ns.fffd. hostmaster.fffd. (")
 print("					" + str(int(time.time())) + "; serial")
 print("					86400	; refresh")
 print("					7200	; retry")
@@ -29,7 +29,8 @@ print("					172800	; TTL")
 print("					)")
 print("")
 print("")
-print("@			IN	NS	localhost.")
+print("@			IN	NS	ns0.fffd.")
+print("@			IN	NS	ns2.fffd.")
 print("")
 print("")
 
