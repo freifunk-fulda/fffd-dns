@@ -21,7 +21,7 @@ for mac, node in data.items():
 print("$ORIGIN nodes.fffd.")
 print("$TTL 3600	; 1 Stunde")
 print("@			IN 	SOA	localhost. hostmaster.freifunk-fulda.de. (")
-print("					" + time.strftime("%Y%m%d%S") + "; serial")
+print("					" + str(int(time.time())) + "; serial")
 print("					86400	; refresh")
 print("					7200	; retry")
 print("					3600000	; expire")
