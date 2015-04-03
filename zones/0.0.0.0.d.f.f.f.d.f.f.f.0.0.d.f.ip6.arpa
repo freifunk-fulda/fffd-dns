@@ -1,0 +1,19 @@
+$ORIGIN 0.0.0.0.d.f.f.f.d.f.f.f.0.0.d.f.ip6.arpa
+
+$TTL 3600
+@				IN	SOA	ns.fffd. hostmaster.fffd. (
+						2015040305	; serial
+						10800		; refresh
+						3600		; retry
+						604800		; expire
+						3600		; ttl
+						)
+
+@				IN	NS 	ns0.fffd.
+@				IN	NS 	ns2.fffd.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw01.services.fffd.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw02.services.fffd.
+
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	srv1.services.fffd.
+
