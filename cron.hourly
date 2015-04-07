@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/opt/fffd-dns/generate-zones nodes.fffd /var/cache/bind/nodes.fffd /var/cache/bind/0.0.0.0.d.f.f.f.d.f.f.f.0.0.d.f.ip6.arpa
+/opt/fffd-dns/generate-zones nodes.fffd /var/cache/bind/nodes.fffd.incl /var/cache/bind/0.0.0.0.d.f.f.f.d.f.f.f.0.0.d.f.ip6.arpa.incl
 /etc/init.d/bind9 reload
 
 exit 0
