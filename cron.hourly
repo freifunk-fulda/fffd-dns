@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/opt/fffd-dns/dns-nodenames.py > /opt/fffd-dns/zones/db.nodes.fffd
+/opt/fffd-dns/generate-zones nodes.fffd /var/cache/bind/nodes.fffd /var/cache/bind/0.0.0.0.d.f.f.f.d.f.f.f.0.0.d.f.ip6.arpa
 /etc/init.d/bind9 reload
 
 exit 0

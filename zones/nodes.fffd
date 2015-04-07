@@ -1,0 +1,17 @@
+$ORIGIN nodes.fffd.
+$TTL 3600	; 1 Stunde
+@			IN 	SOA	ns.fffd. hostmaster.fffd. (
+					1428434221; serial
+					86400	; refresh
+					7200	; retry
+					3600000	; expire
+					172800	; TTL
+					)
+
+
+@			IN	NS	ns0.fffd.
+@			IN	NS	ns2.fffd.
+
+
+$INCLUDE nodes.fffd,incl ;
+
