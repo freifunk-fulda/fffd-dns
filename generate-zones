@@ -60,7 +60,7 @@ for node in data.values():
               file=default_zone_file)
 
         # Write a PTR record to reverse zone
-        print('%-32s\tIN\tPTR\t%s' % ('.'.join(reversed(address.exploded.replace(':', ''))) + '.ip6.arpa.', fqdn),
+        print('%-32s\tIN\tPTR\t%s' % ('.'.join(reversed(address.exploded.replace(':', ''))) + '.ip6.arpa.', fqdn + '.'),
               file=reverse_zone_file)
 
 # Move temporary output files to final destination
