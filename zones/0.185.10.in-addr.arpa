@@ -16,4 +16,5 @@ $TTL 3600
 2			IN	PTR	gw02.services.fffd.
 
 11			IN	PTR	srv1.services.fffd.
+12			IN	PTR	nms.services.fffd.
 

@@ -34,5 +34,8 @@ ns1			IN	A	10.185.0.1
 ns2			IN	A	10.185.0.2
 			IN	AAAA	fd00:fffd:fffd::1
 
+nms			IN	A	10.185.0.12
+			IN	AAAA	fd00:fffd:fffd::12
+
 firmware		IN	A	10.185.0.11
 			IN	AAAA	fd00:fffd:fffd::11

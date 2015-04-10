@@ -16,4 +16,4 @@ $TTL 3600
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw02.services.fffd.
 
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	srv1.services.fffd.
-
+2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	nms.services.fffd.
