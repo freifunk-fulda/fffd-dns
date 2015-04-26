@@ -2,7 +2,7 @@ $ORIGIN fffd.
 
 $TTL 3600
 @ 			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015042000	; serial
+					2015042600	; serial
 					10800		; refresh
 					3600		; retry
 					604800		; expire
@@ -34,6 +34,9 @@ ns2			IN	A	10.185.0.2
 			IN	AAAA	fd00:fffd:fffd::2
 ns3			IN	A	10.185.0.3
 			IN	AAAA	fd00:fffd:fffd::3
+
+nextnode		IN	A	10.185.0.255
+			IN	AAAA	fd00:fffd:fffd::255
 
 start			IN	A	10.185.0.11
 			IN	AAAA	fd00:fffd:fffd::11

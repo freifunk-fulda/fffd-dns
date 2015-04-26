@@ -2,7 +2,7 @@ $ORIGIN 0.0.0.0.d.f.f.f.d.f.f.f.0.0.d.f.ip6.arpa.
 
 $TTL 3600
 @				IN	SOA	ns.fffd. hostmaster.fffd. (
-						2015042000	; serial
+						2015042600	; serial
 						10800		; refresh
 						3600		; retry
 						604800		; expire
@@ -21,3 +21,5 @@ $TTL 3600
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	srv1.services.fffd.
 2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	nms.services.fffd.
 3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	srv2.services.fffd.
+
+5.5.2.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	nextnode.fffd.
