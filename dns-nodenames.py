@@ -13,7 +13,9 @@ for mac, node in data.items():
 
     try:
         hostname = re.sub(r'[^a-z0-9\-]',"", node["hostname"].lower()) 
-        nodes[hostname] = node["network"]["addresses"][0]
+        for address in node["network"]["addresses"]:
+            if address.startswith("fd00"):
+                nodes[hostname] = address
     except: 
         pass
 
