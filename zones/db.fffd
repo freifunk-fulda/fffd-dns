@@ -2,7 +2,7 @@ $ORIGIN fffd.
 
 $TTL 3600
 @ 			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015050800	; serial
+					2015050801	; serial
 					86400		; refresh
 					7200		; retry
 					3600000		; expire
@@ -52,3 +52,7 @@ nodegame		IN	A	10.185.0.11
 
 mumble			IN	A	10.185.0.11
 			IN	AAAA	fd00:fffd:fffd::11
+
+hs-fulda.fffd		IN	A	10.185.1.23
+*.hs-fulda.fffd		IN	A	10.185.1.23
+
