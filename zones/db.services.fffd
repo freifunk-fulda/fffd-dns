@@ -2,7 +2,7 @@ $ORIGIN services.fffd.
 
 $TTL 3600
 @ 			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015050800	; serial
+					2015050801	; serial
 					86400		; refresh
 					7200		; retry
 					3600000		; expire
@@ -46,6 +46,9 @@ ns3			IN	A	10.185.0.3
 			IN	AAAA	fd00:fffd:fffd::3
 
 nms			IN	A	10.185.0.12
+			IN	AAAA	fd00:fffd:fffd::12
+
+grafana			IN	A	10.185.0.12
 			IN	AAAA	fd00:fffd:fffd::12
 
 firmware		IN	A	10.185.0.11
