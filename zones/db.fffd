@@ -53,6 +53,6 @@ nodegame		IN	A	10.185.0.11
 mumble			IN	A	10.185.0.11
 			IN	AAAA	fd00:fffd:fffd::11
 
-hs-fulda.fffd		IN	A	10.185.1.23
-*.hs-fulda.fffd		IN	A	10.185.1.23
+hs-fulda		IN	A	10.185.1.23
+*.hs-fulda		IN	A	10.185.1.23
 
