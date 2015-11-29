@@ -1,6 +1,6 @@
 #!/bin/sh
 
 /opt/fffd-dns/dns-nodenames.py > /opt/fffd-dns/zones/db.nodes.fffd
-/etc/init.d/bind9 reload
+rndc reload > /dev/null
 
 exit 0
