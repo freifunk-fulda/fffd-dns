@@ -55,3 +55,6 @@ firmware		IN	A	10.185.0.11
 
 support 		IN	A	10.185.0.11
 			IN	AAAA	fd00:65a8:93a4::11
+
+opkg            IN  A   10.185.0.11
+            IN  AAAA    fd00:65a8:93a4::11
