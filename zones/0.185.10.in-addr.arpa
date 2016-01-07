@@ -23,4 +23,4 @@ $TTL 3600
 11			IN	PTR	srv1.services.fffd.
 12			IN	PTR	nms.services.fffd.
 13			IN	PTR	srv2.services.fffd.
-
+50			IN	PTR	kuechenfunk.fffd.
