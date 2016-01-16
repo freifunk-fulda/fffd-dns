@@ -2,7 +2,7 @@ $ORIGIN 0.185.10.in-addr.arpa.
 $TTL 3600
 
 @			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015100002	; serial
+					2015100003	; serial
 					10800		; refresh
 					3600		; retry
 					604800		; expire
@@ -18,6 +18,7 @@ $TTL 3600
 1			IN	PTR	gw01.services.fffd.
 2			IN	PTR	gw02.services.fffd.
 3			IN	PTR	gw03.services.fffd.
+4			IN	PTR	gw04.services.fffd.
 
 
 11			IN	PTR	srv1.services.fffd.
