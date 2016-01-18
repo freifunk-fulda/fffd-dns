@@ -1,7 +1,7 @@
 $ORIGIN 0.185.10.in-addr.arpa.
 $TTL 3600
 
-@			IN	SOA	ns.fffd. hostmaster.fffd. (
+@			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
 					2015100003	; serial
 					10800		; refresh
 					3600		; retry
@@ -9,21 +9,21 @@ $TTL 3600
 					3600		; ttl
 					)
 
-@			IN	NS 	ns1.fffd.
-@			IN	NS 	ns2.fffd.
-@			IN	NS 	ns3.fffd.
+@			IN	NS 	ns1.fffd.eu.
+@			IN	NS 	ns2.fffd.eu.
+@			IN	NS 	ns3.fffd.eu.
 
-255			IN	PTR	nextnode.fffd.
+255			IN	PTR	nextnode.fffd.eu.
 
-1			IN	PTR	gw01.services.fffd.
-2			IN	PTR	gw02.services.fffd.
-3			IN	PTR	gw03.services.fffd.
-4			IN	PTR	gw04.services.fffd.
-
-
-11			IN	PTR	srv1.services.fffd.
-12			IN	PTR	nms.services.fffd.
-13			IN	PTR	srv2.services.fffd.
+1			IN	PTR	gw01.services.fffd.eu.
+2			IN	PTR	gw02.services.fffd.eu.
+3			IN	PTR	gw03.services.fffd.eu.
+4			IN	PTR	gw04.services.fffd.eu.
 
 
-50			IN	PTR	kuechenfunk.fffd.
+11			IN	PTR	srv1.services.fffd.eu.
+12			IN	PTR	nms.services.fffd.eu.
+13			IN	PTR	srv2.services.fffd.eu.
+
+
+50			IN	PTR	kuechenfunk.fffd.eu.
