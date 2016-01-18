@@ -22,7 +22,7 @@ for mac, node in data.items():
 
 print("$ORIGIN nodes.fffd.eu.")
 print("$TTL 3600	; 1 Stunde")
-print("@			IN 	SOA	ns.fffd.eu hostmaster.fffd.eu. (")
+print("@			IN 	SOA	ns.fffd.eu. hostmaster.fffd.eu. (")
 print("					" + str(int(time.time())) + "; serial")
 print("					86400	; refresh")
 print("					7200	; retry")
