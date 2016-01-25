@@ -2,7 +2,7 @@ $ORIGIN 0.185.10.in-addr.arpa.
 $TTL 3600
 
 @			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
-					2015100003	; serial
+					2015100004	; serial
 					10800		; refresh
 					3600		; retry
 					604800		; expire
@@ -10,8 +10,8 @@ $TTL 3600
 					)
 
 @			IN	NS 	ns1.fffd.eu.
-@			IN	NS 	ns2.fffd.eu.
 @			IN	NS 	ns3.fffd.eu.
+@			IN	NS 	ns4.fffd.eu.
 
 255			IN	PTR	nextnode.fffd.eu.
 
