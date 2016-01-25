@@ -20,9 +20,9 @@ for mac, node in data.items():
         pass
 
 
-print("$ORIGIN nodes.fffd.")
+print("$ORIGIN nodes.fffd.eu.")
 print("$TTL 3600	; 1 Stunde")
-print("@			IN 	SOA	ns.fffd. hostmaster.fffd. (")
+print("@			IN 	SOA	ns.fffd.eu. hostmaster.fffd.eu. (")
 print("					" + str(int(time.time())) + "; serial")
 print("					86400	; refresh")
 print("					7200	; retry")
@@ -31,10 +31,10 @@ print("					7200	; TTL")
 print("					)")
 print("")
 print("")
-print("@			IN	NS	ns0.fffd.")
-print("@			IN	NS	ns1.fffd.")
-print("@			IN	NS	ns2.fffd.")
-print("@			IN	NS	ns3.fffd.")
+print("@			IN	NS	ns0.fffd.eu.")
+print("@			IN	NS	ns1.fffd.eu.")
+print("@			IN	NS	ns2.fffd.eu.")
+print("@			IN	NS	ns3.fffd.eu.")
 print("")
 print("")
 
