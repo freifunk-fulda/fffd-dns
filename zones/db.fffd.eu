@@ -54,8 +54,20 @@ mumble			IN	A	10.185.0.11
 
 
 
+freishare		IN	A	10.185.1.10
+			IN	AAAA	fd00:65a8:93a4::1:10
+
+tracker1		IN	A	10.185.1.11
+			IN	AAAA	fd00:65a8:93a4::1:11
+
+tracker2		IN	A	10.185.1.12
+			IN	AAAA	fd00:65a8:93a4::1:12
+
 hs-fulda		IN	A	10.185.1.23
+			IN	AAAA	fd00:65a8:93a4::1:23
+
 *.hs-fulda		IN	A	10.185.1.23
+			IN	AAAA	fd00:65a8:93a4::1:23
 
 academy			IN	A	10.185.1.42
 
