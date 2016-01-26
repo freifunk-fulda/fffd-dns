@@ -2,7 +2,7 @@ $ORIGIN fffd.eu.
 $TTL 3600
 
 @ 			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
-					2015100006	; serial
+					2015100007	; serial
 					86400		; refresh
 					7200		; retry
 					3600000		; expire
