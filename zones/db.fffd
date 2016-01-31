@@ -2,7 +2,7 @@ $ORIGIN fffd.
 $TTL 3600
 
 @ 			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015100006	; serial
+					2015100007	; serial
 					86400		; refresh
 					7200		; retry
 					3600000		; expire
@@ -61,4 +61,7 @@ academy			IN	A	10.185.1.42
 
 kuechenfunk		IN	A	10.185.1.50
 			IN	AAAA	fd00:65a8:93a4::1:50
+
+bulut			IN	A	10.185.1.51
+			IN	AAAA	fd00:65a8:93a4::1:51
 

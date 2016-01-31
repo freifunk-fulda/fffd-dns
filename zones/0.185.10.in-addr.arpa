@@ -2,7 +2,7 @@ $ORIGIN 0.185.10.in-addr.arpa.
 $TTL 3600
 
 @			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
-					2015100004	; serial
+					2015100005	; serial
 					10800		; refresh
 					3600		; retry
 					604800		; expire
@@ -27,3 +27,4 @@ $TTL 3600
 
 
 50			IN	PTR	kuechenfunk.fffd.eu.
+51			IN	PTR	bulut.fffd.eu.
