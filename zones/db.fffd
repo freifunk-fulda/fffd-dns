@@ -22,8 +22,8 @@ services		IN	NS	ns2.fffd.
 services		IN	NS	ns4.fffd.
 
 
-ns			IN	A	10.185.0.11
-			IN	AAAA	fd00:65a8:93a4::11
+ns			IN	A	10.185.0.15
+			IN	AAAA	fd00:65a8:93a4::15
 ns1			IN	A	10.185.0.1
 			IN	AAAA	fd00:65a8:93a4::1
 ns2			IN	A	10.185.0.2
@@ -37,20 +37,20 @@ ns4			IN	A	10.185.0.4
 nextnode		IN	A	10.185.0.255
 			IN	AAAA	fd00:65a8:93a4::255
 
-start			IN	A	10.185.0.11
-			IN	AAAA	fd00:65a8:93a4::11
+start			IN	A	10.185.0.15
+			IN	AAAA	fd00:65a8:93a4::15
 
-map			IN	A	10.185.0.11
-			IN	AAAA	fd00:65a8:93a4::11
+map			IN	A	10.185.0.15
+			IN	AAAA	fd00:65a8:93a4::15
 
-meshviewer		IN	A	10.185.0.11
-			IN	AAAA	fd00:65a8:93a4::11
+meshviewer		IN	A	10.185.0.15
+			IN	AAAA	fd00:65a8:93a4::15
 
-nodegame		IN	A	10.185.0.11
-			IN	AAAA	fd00:65a8:93a4::11
+nodegame		IN	A	10.185.0.15
+			IN	AAAA	fd00:65a8:93a4::15
 
-mumble			IN	A	10.185.0.11
-			IN	AAAA	fd00:65a8:93a4::11
+mumble			IN	A	10.185.0.15
+			IN	AAAA	fd00:65a8:93a4::15
 
 
 

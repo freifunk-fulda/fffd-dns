@@ -21,7 +21,7 @@ $TTL 3600
 4			IN	PTR	gw04.services.fffd.eu.
 
 
-11			IN	PTR	srv1.services.fffd.eu.
+15			IN	PTR	srv1.services.fffd.eu.
 12			IN	PTR	nms.services.fffd.eu.
 13			IN	PTR	srv2.services.fffd.eu.
 

@@ -21,7 +21,7 @@ $TTL 3600
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	gw04.services.fffd.eu.
 
 
-1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	srv1.services.fffd.eu.
+5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	srv1.services.fffd.eu.
 2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	nms.services.fffd.eu.
 3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	srv2.services.fffd.eu.
 
