@@ -2,7 +2,7 @@ $ORIGIN fffd.
 $TTL 3600
 
 @ 			IN	SOA	ns.fffd. hostmaster.fffd. (
-					2015100008	; serial
+					2015100009	; serial
 					86400		; refresh
 					7200		; retry
 					3600000		; expire
