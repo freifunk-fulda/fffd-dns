@@ -2,7 +2,7 @@ $ORIGIN fffd.eu.
 $TTL 3600
 
 @ 			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
-					2015100010	; serial
+					2015100011	; serial
 					86400		; refresh
 					7200		; retry
 					3600000		; expire
@@ -53,6 +53,9 @@ mumble			IN	A	10.185.0.15
 			IN	AAAA	fd00:65a8:93a4::15
 
 
+
+scifire			IN	A	10.185.1.2
+			IN	AAAA	fd00:65a8:93a4::1:51
 
 freishare		IN	A	10.185.1.10
 			IN	AAAA	fd00:65a8:93a4::1:10
