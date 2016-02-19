@@ -37,6 +37,9 @@ ns4			IN	A	10.185.0.4
 nextnode		IN	A	10.185.0.255
 			IN	AAAA	fd00:65a8:93a4::255
 
+
+; Backend
+;
 start			IN	A	10.185.0.15
 			IN	AAAA	fd00:65a8:93a4::15
 
@@ -54,6 +57,8 @@ mumble			IN	A	10.185.0.15
 
 
 
+; Nodes
+;
 scifire			IN	A	10.185.1.2
 			IN	AAAA	fd00:65a8:93a4::1:51
 

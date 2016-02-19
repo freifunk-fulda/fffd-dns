@@ -1,0 +1,37 @@
+$ORIGIN 185.10.in-addr.arpa.
+$TTL 3600
+
+@			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
+					2015100009	; serial
+					10800		; refresh
+					3600		; retry
+					604800		; expire
+					3600		; ttl
+					)
+
+@			IN	NS 	ns1.fffd.eu.
+@			IN	NS 	ns2.fffd.eu.
+@			IN	NS 	ns4.fffd.eu.
+
+255.0			IN	PTR	nextnode.fffd.eu.
+
+; Gateways
+;
+1.0			IN	PTR	gw01.services.fffd.eu.
+2.0			IN	PTR	gw02.services.fffd.eu.
+3.0			IN	PTR	gw03.services.fffd.eu.
+4.0			IN	PTR	gw04.services.fffd.eu.
+
+
+; Backend
+;
+15.0			IN	PTR	srv1.services.fffd.eu.
+12.0			IN	PTR	nms.services.fffd.eu.
+13.0			IN	PTR	srv2.services.fffd.eu.
+
+
+; Nodes
+;
+2.1			IN	PTR	scifire.fffd.eu.
+50.1			IN	PTR	kuechenfunk.fffd.eu.
+51.1			IN	PTR	bulut.fffd.eu.
