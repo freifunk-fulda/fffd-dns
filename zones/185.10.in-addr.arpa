@@ -2,14 +2,13 @@ $ORIGIN 185.10.in-addr.arpa.
 $TTL 3600
 
 @			IN	SOA	ns.fffd.eu. hostmaster.fffd.eu. (
-					2015100009	; serial
+					2015100010	; serial
 					10800		; refresh
 					3600		; retry
 					604800		; expire
 					3600		; ttl
 					)
 
-@			IN	NS 	ns1.fffd.eu.
 @			IN	NS 	ns2.fffd.eu.
 @			IN	NS 	ns4.fffd.eu.
 
@@ -17,9 +16,7 @@ $TTL 3600
 
 ; Gateways
 ;
-1.0			IN	PTR	gw01.services.fffd.eu.
 2.0			IN	PTR	gw02.services.fffd.eu.
-3.0			IN	PTR	gw03.services.fffd.eu.
 4.0			IN	PTR	gw04.services.fffd.eu.
 
 
